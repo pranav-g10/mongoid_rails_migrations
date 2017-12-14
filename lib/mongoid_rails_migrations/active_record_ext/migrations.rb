@@ -219,7 +219,7 @@ module Mongoid #:nodoc
       end
 
       def migrations_path
-        @migrations_path ||= ['db/migrate']
+        @migrations_path ||= ['db/mongoid']
       end
 
       # def schema_migrations_table_name
